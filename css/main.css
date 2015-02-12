@@ -1,0 +1,14 @@
+
+dl {
+	line-height: 1.5em;
+}
+
+dt {
+	float: left;
+	font-weight: bold;
+	width: 30%;
+}
+
+html { 
+    background-color: #990099;
+}
