@@ -34,18 +34,18 @@ var writeFruitInfo = function (fruit) {
 	document.write('<dd>' + fruit.growsOnShrub +'</dd>');
     
 	document.write('<dt>Energy</dt>');
-	document.write('<dd>'+ fruit.energy + '</dd>');
+	document.write('<dd>'+ fruit.energy + ' KJ </dd>');
     
 	document.write('<dt>Carbohydrates</dt>');
-	document.write('<dd>' + fruit.carbohydrates +'</dd>');
+	document.write('<dd>' + fruit.carbohydrates +' g </dd>');
     
 	document.write('<dt>Protein</dt>');
-	document.write('<dd> ' + fruit.protein + '</dd>');
+	document.write('<dd> ' + fruit.protein + ' g </dd>');
     
 	document.write('</dl>');
 };
-    
 
-writeFruitInfo(blueberries);
-writeFruitInfo(grapes);
-writeFruitInfo(redCurrant);
+var allFruitInfo = [blueberries,grapes,redCurrant];
+
+allFruitInfo.forEach(writeFruitInfo);
+    
