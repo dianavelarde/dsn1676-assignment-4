@@ -8,7 +8,7 @@ var blueberries = {
 console.log(blueberries.info);
 
 var grapes = {
-	info: 'Vitis vinifera',
+	info: '<h2> Vitis vinifera </h2>',
 	growsOnShrub: false,
 	energy: 288,
 	carbohydrates: 18.1,
@@ -17,7 +17,7 @@ var grapes = {
 console.log(grapes.info);
 
 var redCurrant = {
-	info: 'Ribes rubrum',
+	info: '<h3> Ribes rubrum </h3>',
 	growsOnShrub: true,
 	energy: 234,
 	carbohydrates: 13.8,
